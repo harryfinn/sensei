@@ -1,0 +1,17 @@
+{
+  "name": "sensei",
+  "version": "0.1.0",
+  "description": "An SSH powered deployer for WordPress sites that use Brunch & Yarn",
+  "main": "sensei.js",
+  "repository": "https://github.com/harryfinn/sensei",
+  "author": "Harry Finn <harry@harryfinn.co.uk>",
+  "license": "MIT",
+  "bin": {
+    "sensei": "./sensei.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "shelljs": "^0.7.8",
+    "shelljs-plugin-ssh": "^1.2.1"
+  }
+}
